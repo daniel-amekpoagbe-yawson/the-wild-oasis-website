@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Guest Area",
+  description: "Learn more about our company and values.",
+};
+
 function Account() {
   return (
     <div>
