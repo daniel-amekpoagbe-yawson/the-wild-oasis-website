@@ -1,6 +1,5 @@
 import Header from "./_components/Header";
-import Logo from "./_components/Logo";
-import Navigation from "./_components/Navigation";
+
 import "@/app/_styles/globals.css";
 
 import { Josefin_Sans } from "next/font/google";
@@ -32,8 +31,8 @@ function RootLayout({ children }) {
       >
         <Header />
 
-        <div className="flex-1 px-8 py-12">
-          <main className="mx-auto max-w-7xl">{children}</main>
+        <div className="flex-1 px-8 py-12 grid ">
+          <main className="mx-auto max-w-7xl w-full">{children}</main>
         </div>
       </body>
     </html>

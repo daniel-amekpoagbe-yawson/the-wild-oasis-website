@@ -5,10 +5,9 @@ export const metadata = {
 
 function Account() {
   return (
-    <div>
-      <h1>Account Page</h1>
-      <p>Manage your account settings and preferences here.</p>
-    </div>
+    <h2 className="font-semibold text-2xl text-accent-400 mb-7">
+      Welcome Daniel!
+    </h2>
   );
 }
 export default Account;
